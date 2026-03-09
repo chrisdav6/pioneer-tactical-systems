@@ -17,6 +17,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Pioneer Tactical Systems',
   description: 'Pioneer Tactical Systems - Precision, Innovation, Reliability',
+  icons: {
+    icon: '/favicon.png', // Reference from the public directory
+  },
 };
 
 export default function RootLayout({
