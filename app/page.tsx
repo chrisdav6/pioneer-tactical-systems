@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-[url('/digital-camo.png')] bg-cover bg-center opacity-40"></div>
 
       {/* Dark overlay */}
-      <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80'></div>
+      <div className='absolute inset-0 bg-linear-to-b from-black/70 via-black/60 to-black/80'></div>
 
       {/* Content */}
       <div className='relative z-10 flex flex-col items-center text-center px-6 max-w-xl opacity-0 animate-fade-in'>
